@@ -1,2 +1,2 @@
-# PortafolioWeb
-My Programmer Web Portfolio made in Html, Css and Js (And maybe boostrap)
+# mywebtemplate
+A responsive web template in html, css and js

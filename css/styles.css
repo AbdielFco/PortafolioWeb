@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ... Tus estilos existentes ... */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .main, .footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.title-and-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    /* Estilos para el título si es necesario */
+}
+
+.hamburger-icon {
+    display: none; /* Ocultar el icono de hamburguesa por defecto en dispositivos de escritorio */
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 20px;
+    transition: background-color 0.3s ease; /* Transición para el efecto hover */
+}
+
+.menu-item:hover {
+    background-color: #555; /* Color de fondo al hacer hover */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main {
+    background-color: #f0f0f0;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* ... Otros estilos ... */
+
+
+

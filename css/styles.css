@@ -6,14 +6,18 @@ body {
     box-sizing: border-box;
 }
 
+/* Establece una regla más específica para el contenedor */
+body .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 /* ... Tus estilos existentes ... */
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .header, .main, .footer {
